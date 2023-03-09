@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "constructions-company"
+version = "0.1.0"
+description = "A site to publish the latest work for a contracting company"
+authors = ["yusuf ashour"]
+readme = "README.md"
+packages = [{include = "constructions_company"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.7"
+django-decouple = "^2.1"
+psycopg2-binary = "^2.9.5"
+pillow = "^9.4.0"
+django-imagekit = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
